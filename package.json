@@ -1,0 +1,29 @@
+{
+  "name": "obj-orient",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Car.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/augustineezinwa/OOP-Tasks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/augustineezinwa/OOP-Tasks/issues"
+  },
+  "homepage": "https://github.com/augustineezinwa/OOP-Tasks#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.5"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0"
+  }
+}
