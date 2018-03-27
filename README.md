@@ -6,9 +6,9 @@
 - Camry is an instance or object of vehicle and inherits the above fields and behaviour
 
 
-# Installation
+## Installation
 1. `clone repository`
 2.  run `npm install`
 
-# Testing
+## Testing
 3. run `npm test`
