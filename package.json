@@ -4,7 +4,7 @@
   "description": "",
   "main": "Car.js",
   "scripts": {
-    "test": "mocha lib/CarTest.js",
+    "test": "mocha lib/VehicleTest.js",
     "start": "babel ./*.js -d lib"
   },
   "repository": {
