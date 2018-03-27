@@ -5,15 +5,15 @@ class Vehicle {
         this.gear = gear;
     }
 
-    set(speed) {
-        this.speed += speed;
-        return(`My current speed is ${speed}`);
+    setSpeed(speed) {
+        this.speed = speed;
+        return(`My current speed is ${this.speed}`);
     }
-    set(color) {
+    setColor(color) {
         this.color = color;
-        return(`My current color is ${color}`);
+        return(`My current color is ${this.color}`);
     }
-    set(gear) {
+    setGear(gear) {
         this.gear = gear;
         return(`My current speed is ${gear}`);
     }
@@ -36,8 +36,8 @@ class Vehicle {
 }
 
 class Toyota extends Vehicle {
-    constructor(model,sound) {
-        super();
+    constructor(color, speed, gear, model, sound) {
+        super(color, speed, gear);
         this.model = model;
         this.sound = sound;
     }
@@ -46,7 +46,10 @@ class Toyota extends Vehicle {
     return `My vehicle name is ${this.model}`
     }
     getSound() {
-        return `My vehicle sound, sounds this way ${this.sound}`
+        return `My vehicle ${this.model} sounds this way ${this.sound}`
+    }
+    isMoving() {
+        return `My vehicle ${this.model} is speedy`
     }
 }
 
