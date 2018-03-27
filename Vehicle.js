@@ -32,7 +32,7 @@ class Vehicle {
     }
     getMotionMessage() {
         if(this.defaultSpeed > 0) {
-            return `Vehicle of color ${this.defaultColor} is moving fast`
+            return `Vehicle of color ${this.defaultColor} is moving fast`;
         }
     }
 }

@@ -22,9 +22,9 @@ class Toyota extends Vehicle {
     }
     getMotionMessage() {
         if(this.defaultSpeed > 0) {
-            return `My vehicle ${this.defaultModel} is moving so fast!`
+            return `My vehicle ${this.defaultModel} is moving so fast!`;
         } else {
-            return `My vehicle ${this.defaultModel} stopped!`
+            return `My vehicle ${this.defaultModel} stopped!`;
         }
     }
 }
